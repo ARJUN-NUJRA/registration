@@ -1,0 +1,64 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 8px #ccc;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 150px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"],
+  textarea,
+  select {
+    width: 250px;
+    margin: 15px 0;
+    padding: 5px 15px;
+  }
+#gender{
+    width: 250px;
+    margin: 15px 0;
+    padding: 5px 15px;
+}
+  
+  button {
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(50, 185, 239);
+    border: 1px solid #ccc;
+    padding: 7px 25px;
+  }
+  button:hover{
+    background-color: gray;
+    cursor: pointer;
+  }
+  
+  .progress-bar {
+    background-color: #f0f0f0;
+    height: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .progress {
+    background-color: #8ae68d;
+    height: 100%;
+    width: 0;
+  }
+  
